@@ -21,19 +21,19 @@ const Navbar = () => {
             {/*menu*/}
 
             <ul className='hidden md:flex'>
-                <li className="hover:bg-lime-300 rounded-lg hover:text-black ">
+                <li className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black">
                 <a href='/'>Home</a>
                 </li >
-                <li  className="hover:bg-lime-300 rounded-lg hover:text-black ">
+                <li className="bg-lime-300 shadow-lg mx-1 shadow-lime-500/50 rounded-lg text-black">
                 <a href='/about'>About</a>
                 </li>
-                <li  className="hover:bg-lime-300 rounded-lg hover:text-black ">
+                <li className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black">
                 <a href='/skill'>Skill</a>
                 </li>
-                <li  className="hover:bg-lime-300 rounded-lg hover:text-black ">
+                <li  className="bg-lime-300 shadow-lg mx-1 shadow-lime-500/50 rounded-lg text-black">
                 <a href='/work'>Work</a>
                 </li>
-                <li  className="hover:bg-lime-300 rounded-lg hover:text-black ">
+                <li  className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black">
                 <a href='/contact'>Contact</a>
                 </li>
             </ul>
