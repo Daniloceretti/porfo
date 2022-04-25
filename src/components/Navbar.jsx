@@ -3,7 +3,7 @@ import {FaBars,FaTimes,FaGithub,FaLinkedin,} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/CDv.png'
-import CV from '../assets/CV.pdf'
+import CV from '../assets/CV||FR.pdf'
 import {Link} from 'react-router-dom'
 
 
