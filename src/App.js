@@ -4,19 +4,21 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import {Routes,Route} from 'react-router-dom'
+import {Routes,Route,Router} from 'react-router-dom'
 
 function App( ) {
   return (
    <>
+
  <Navbar/>
  <Routes>
-<Route path='/' element={<Home/>}/>
-<Route path='/about' element={<About/>}/>
-<Route path='/skill' element={<Skill/>}/>
-<Route path='/work' element={<Work/>}/>
-<Route path='/contact' element={<Contact/>}/>
+<Route path='/' exact element={<Home/>}/>
+<Route path='/about' exact element={<About/>}/>
+<Route path='/skill' exact element={<Skill/>}/>
+<Route path='/work' exact element={<Work/>}/>
+<Route path='/contact'  exact element={<Contact/>}/>
  </Routes>
+
  {/* <Home/>
  <About/>
  <Skill/>
