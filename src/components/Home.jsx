@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiArrowNarrowRight,HiArrowNarrowLeft } from 'react-icons/hi'
+import { HiArrowNarrowRight} from 'react-icons/hi'
 import {Link } from 'react-router-dom'
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
                 <p className='text-[#8892b0] py-4 max-w-[700px]'> Soy un desarrollador full-stack orientado a la creación de front-end de experiencias digitales excepcionales. Actualmente, estoy enfocado en la creación de aplicaciones web.</p>
                 <div className=" w-max  " >
                 <Link to="/work" >
-                    <button  className='text-white group border-2 px-6 py-3 my-2   flex items-center hover:bg-lime-200 hover:bg-lime-200 hover:text-black'>
+                    <button  className='text-white group border-2 px-6 py-3 my-2   flex items-center hover:bg-lime-200, hover:bg-lime-200 hover:text-black'>
                         Ver Trabajos
                       
                         <span className='group-hover:rotate-90 duration-300'>
