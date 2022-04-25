@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {FaBars,FaTimes,FaGithub,FaLinkedin,} from 'react-icons/fa'
+import {FaBars,FaTimes,FaGithub,FaLinkedin,FaWhatsappSquare} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/CDv.png'
@@ -92,6 +92,13 @@ const Navbar = () => {
                        CV<BsFillPersonLinesFill size={30}/>
                     </a>
                     </li>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-lime-300'>
+                    <a  className='flex justify-between items-center w-full text-black'
+                    href="https://walink.co/41a177" TARGET='_BLANK'>
+                       WhatsApp<FaWhatsappSquare size={30}/>
+                    </a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
