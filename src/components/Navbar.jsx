@@ -15,25 +15,25 @@ const Navbar = () => {
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <Link to='/'>
             <div>
-                <img src={Logo} alt="Logo Image" style={{ width: '150px' }}/>
+                <img src={Logo} alt="Logo" style={{ width: '150px' }}/>
             </div>
             </Link>
             {/*menu*/}
 
             <ul className='hidden md:flex'>
-                <li className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black">
+                <li className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black hover:scale-110 duration-500">
                 <a href='/'>Home</a>
                 </li >
-                <li className="bg-lime-300 shadow-lg mx-1 shadow-lime-500/50 rounded-lg text-black">
+                <li className="bg-lime-300 shadow-lg mx-1 shadow-lime-500/50 rounded-lg text-black hover:scale-110 duration-500">
                 <a href='/about'>About</a>
                 </li>
-                <li className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black">
+                <li className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black hover:scale-110 duration-500">
                 <a href='/skill'>Skill</a>
                 </li>
-                <li  className="bg-lime-300 shadow-lg mx-1 shadow-lime-500/50 rounded-lg text-black">
+                <li  className="bg-lime-300 shadow-lg mx-1 shadow-lime-500/50 rounded-lg text-black hover:scale-110 duration-500">
                 <a href='/work'>Work</a>
                 </li>
-                <li  className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black">
+                <li  className="bg-lime-300 shadow-lg shadow-lime-500/50 rounded-lg text-black hover:scale-110 duration-500">
                 <a href='/contact'>Contact</a>
                 </li>
             </ul>

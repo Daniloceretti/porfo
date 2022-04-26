@@ -4,7 +4,7 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import {Routes,Route,Router} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
 
 function App( ) {
   return (
